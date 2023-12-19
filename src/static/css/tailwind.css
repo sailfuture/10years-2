@@ -12,6 +12,18 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
+@font-face {
+  font-family: 'Mona';
+  src: url('path/to/mona-font.woff2') format('woff2'),
+       url('path/to/mona-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Mona', sans-serif;
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
